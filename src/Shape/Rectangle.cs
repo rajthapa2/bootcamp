@@ -8,9 +8,9 @@ namespace Shape
         private readonly double _width;
         private readonly double _height;
 
-        public double Perimeter
+        public double GetPerimeter()
         {
-            get { return 2 * (_height + _width); }
+            return 2 * (_height + _width);
         }
 
         public Rectangle(double height, double width)

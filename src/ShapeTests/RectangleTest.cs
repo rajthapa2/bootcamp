@@ -34,7 +34,7 @@ namespace ShapeTests
         public double ShouldCalculatePerimeter(double height, double width)
         {
             var rectangle = new Rectangle(height, width);
-            return rectangle.Perimeter;
+            return rectangle.GetPerimeter();
         }
 
         [TestCase(5, 3, 15)]

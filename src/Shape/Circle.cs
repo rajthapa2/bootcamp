@@ -16,9 +16,9 @@ namespace Shape
 
         private readonly double _radius;
 
-        public double Perimeter
+        public double GetPerimeter()
         {
-            get { return 2 * Math.PI * _radius; }
+            return 2 * Math.PI * _radius;
         }
 
         public double GetArea()

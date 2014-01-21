@@ -3,6 +3,6 @@
    public interface IShape
     {
         double GetArea();
-        double Perimeter { get; }
+        double GetPerimeter();
     }
 }

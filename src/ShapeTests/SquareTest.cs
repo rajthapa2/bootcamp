@@ -21,7 +21,7 @@ namespace ShapeTests
         public double ShouldReturnPermeter(double length)
         {
             var square = new Square(length);
-            return square.Perimeter;
+            return square.GetPerimeter();
         }
 
         [TestCase(5, 25)]

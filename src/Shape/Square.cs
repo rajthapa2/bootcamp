@@ -7,9 +7,9 @@ namespace Shape
     {
         private readonly double _length;
 
-        public double Perimeter
+        public double GetPerimeter()
         {
-            get { return 4 * _length; }
+            return 4*_length;
         }
 
         public Square(double length)

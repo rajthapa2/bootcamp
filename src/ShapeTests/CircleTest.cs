@@ -13,7 +13,7 @@ namespace ShapeTests
         public void ShouldReturnPerimeterWhenPassedValidRadius(double radius, double result)
         {
             var circle = new Circle(radius);
-            Assert.That(circle.Perimeter, Is.EqualTo(result));
+            Assert.That(circle.GetPerimeter(), Is.EqualTo(result));
         }
         [Test]
         [ExpectedException(typeof(ArgumentException))]

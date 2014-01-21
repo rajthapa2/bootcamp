@@ -10,7 +10,7 @@ namespace Shape
         {
             var rectangle = new Rectangle(double.MaxValue, double.MaxValue);
 
-            Assert.IsTrue(double.IsInfinity(rectangle.Perimeter));
+            Assert.IsTrue(double.IsInfinity(rectangle.GetPerimeter()));
         }
 
     }
